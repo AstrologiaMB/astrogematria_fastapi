@@ -1,32 +1,1778 @@
 {
-  "remedios": [
-    {"grado": 0, "signo": "Aries", "remedio": "LOBELIA INFLATA"},
-    {"grado": 1, "signo": "Aries", "remedio": "EQUISETUM ARVENSE"},
-    {"grado": 2, "signo": "Aries", "remedio": "BROMUM"},
-    {"grado": 3, "signo": "Aries", "remedio": "BELLIS PERENNIS"},
-    {"grado": 5, "signo": "Aries", "remedio": "ZINCUM METALLICUM"},
-    {"grado": 0, "signo": "Tauro", "remedio": "AGRAPHIS NUTANS"},
-    {"grado": 1, "signo": "Tauro", "remedio": "GLONOINUM"},
-    {"grado": 6, "signo": "Tauro", "remedio": "YUCCA FILAMENTOSA"},
-    {"grado": 0, "signo": "Geminis", "remedio": "EUPATORIUM PERFOLIATUM"},
-    {"grado": 3, "signo": "Geminis", "remedio": "PANCREAS"},
-    {"grado": 0, "signo": "Cancer", "remedio": "AMMONIUM MURIATICUM"},
-    {"grado": 2, "signo": "Cancer", "remedio": "COLOCYNTHIS"},
-    {"grado": 2, "signo": "Leo", "remedio": "MERCURIUS PROTOIODATUS"},
-    {"grado": 4, "signo": "Leo", "remedio": "PLANTAGO MAJOR"},
-    {"grado": 3, "signo": "Virgo", "remedio": "ARGENTUM METALLICUM"},
-    {"grado": 4, "signo": "Virgo", "remedio": "OPIUM"},
-    {"grado": 1, "signo": "Libra", "remedio": "STICTA PULMONARIA"},
-    {"grado": 2, "signo": "Libra", "remedio": "LATHYRUS SATIVUS"},
-    {"grado": 0, "signo": "Escorpio", "remedio": "MERCURIUS BIIODATUS"},
-    {"grado": 1, "signo": "Escorpio", "remedio": "NATRUM PHOSPHORICUM"},
-    {"grado": 0, "signo": "Sagitario", "remedio": "KALIUM MURIATICUM"},
-    {"grado": 1, "signo": "Sagitario", "remedio": "PERIDOTO"},
-    {"grado": 0, "signo": "Capricornio", "remedio": "PULMON HISTAMINADO"},
-    {"grado": 1, "signo": "Capricornio", "remedio": "HEMATITES"},
-    {"grado": 0, "signo": "Acuario", "remedio": "CAMPHORA"},
-    {"grado": 1, "signo": "Acuario", "remedio": "SULFURICUM ACIDUM"},
-    {"grado": 1, "signo": "Piscis", "remedio": "GNAPHALIUM DIOICUM"},
-    {"grado": 3, "signo": "Piscis", "remedio": "LEDUM PALUSTRE"}
-  ]
+  "success": true,
+  "data": {
+    "remedios": [
+      {
+        "grado": 0,
+        "signo": "Aries",
+        "remedio": "LOBELIA INFLATA"
+      },
+      {
+        "grado": 1,
+        "signo": "Aries",
+        "remedio": "EQUISETUM ARVENSE"
+      },
+      {
+        "grado": 2,
+        "signo": "Aries",
+        "remedio": "BROMUM"
+      },
+      {
+        "grado": 2,
+        "signo": "Aries",
+        "remedio": "IGNATIA AMARA"
+      },
+      {
+        "grado": 2,
+        "signo": "Aries",
+        "remedio": "YESO CRISTALIZADO"
+      },
+      {
+        "grado": 3,
+        "signo": "Aries",
+        "remedio": "BELLIS PERENNIS"
+      },
+      {
+        "grado": 3,
+        "signo": "Aries",
+        "remedio": "CLEMATIS ERECTA"
+      },
+      {
+        "grado": 5,
+        "signo": "Aries",
+        "remedio": "ZINCUM METALLICUM"
+      },
+      {
+        "grado": 6,
+        "signo": "Aries",
+        "remedio": "ARTEMISIA ABSINTHIUM"
+      },
+      {
+        "grado": 7,
+        "signo": "Aries",
+        "remedio": "SUPRARRENAL"
+      },
+      {
+        "grado": 9,
+        "signo": "Aries",
+        "remedio": "ARSENICUM ALBUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Aries",
+        "remedio": "IRIS VERSICOLOR"
+      },
+      {
+        "grado": 10,
+        "signo": "Aries",
+        "remedio": "NATRUM MURIATICUM"
+      },
+      {
+        "grado": 11,
+        "signo": "Aries",
+        "remedio": "STANNUM METALLICUM"
+      },
+      {
+        "grado": 12,
+        "signo": "Aries",
+        "remedio": "FORMICA RUFA"
+      },
+      {
+        "grado": 12,
+        "signo": "Aries",
+        "remedio": "JABORANDI"
+      },
+      {
+        "grado": 13,
+        "signo": "Aries",
+        "remedio": "PAREIRA BRAVA"
+      },
+      {
+        "grado": 13,
+        "signo": "Aries",
+        "remedio": "COFFEA TOSTA"
+      },
+      {
+        "grado": 14,
+        "signo": "Aries",
+        "remedio": "LACHESIS MUTUS"
+      },
+      {
+        "grado": 14,
+        "signo": "Aries",
+        "remedio": "TARENTULA CUBENSIS"
+      },
+      {
+        "grado": 15,
+        "signo": "Aries",
+        "remedio": "CARBO VEGETABILIS"
+      },
+      {
+        "grado": 15,
+        "signo": "Aries",
+        "remedio": "ACTAEA RACEMOSA"
+      },
+      {
+        "grado": 16,
+        "signo": "Aries",
+        "remedio": "AGARICUS MUSCARIUS"
+      },
+      {
+        "grado": 16,
+        "signo": "Aries",
+        "remedio": "INFLUENZINUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Aries",
+        "remedio": "FERRUM PHOSPHORICUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Aries",
+        "remedio": "SANGUINARIA CANADENS."
+      },
+      {
+        "grado": 17,
+        "signo": "Aries",
+        "remedio": "BRYONIA"
+      },
+      {
+        "grado": 17,
+        "signo": "Aries",
+        "remedio": "MAGNESIA SULFURICA"
+      },
+      {
+        "grado": 19,
+        "signo": "Aries",
+        "remedio": "CIMOFANO"
+      },
+      {
+        "grado": 19,
+        "signo": "Aries",
+        "remedio": "ARUM TRIPHYLLUM"
+      },
+      {
+        "grado": 20,
+        "signo": "Aries",
+        "remedio": "VANADIUM METALLICUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Aries",
+        "remedio": "RHODODENDRON CHRYSANTHUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Aries",
+        "remedio": "CYNARA SCOLYMUS"
+      },
+      {
+        "grado": 23,
+        "signo": "Aries",
+        "remedio": "SEPIA OFFICINALIS"
+      },
+      {
+        "grado": 25,
+        "signo": "Aries",
+        "remedio": "CALCAREA FLUORICA"
+      },
+      {
+        "grado": 25,
+        "signo": "Aries",
+        "remedio": "TOPACIO AZUL"
+      },
+      {
+        "grado": 27,
+        "signo": "Aries",
+        "remedio": "VINCETOXICUM OFFICINALE"
+      },
+      {
+        "grado": 27,
+        "signo": "Aries",
+        "remedio": "SCROFULARIA NODOSA"
+      },
+      {
+        "grado": 27,
+        "signo": "Aries",
+        "remedio": "MANGANUM ACETICUM"
+      },
+      {
+        "grado": 27,
+        "signo": "Aries",
+        "remedio": "BORAX"
+      },
+      {
+        "grado": 0,
+        "signo": "Tauro",
+        "remedio": "AGRAPHIS NUTANS"
+      },
+      {
+        "grado": 1,
+        "signo": "Tauro",
+        "remedio": "GLONOINUM"
+      },
+      {
+        "grado": 1,
+        "signo": "Tauro",
+        "remedio": "URANIUM NITRICUM"
+      },
+      {
+        "grado": 6,
+        "signo": "Tauro",
+        "remedio": "YUCCA FILAMENTOSA"
+      },
+      {
+        "grado": 7,
+        "signo": "Tauro",
+        "remedio": "ARANEA DIADEMA"
+      },
+      {
+        "grado": 10,
+        "signo": "Tauro",
+        "remedio": "CAULOPHYLLUM THALICTR."
+      },
+      {
+        "grado": 12,
+        "signo": "Tauro",
+        "remedio": "OXALICUM ACIDUM"
+      },
+      {
+        "grado": 14,
+        "signo": "Tauro",
+        "remedio": "NAPHTALINUM"
+      },
+      {
+        "grado": 14,
+        "signo": "Tauro",
+        "remedio": "AMMONIUM CARBONICUM"
+      },
+      {
+        "grado": 15,
+        "signo": "Tauro",
+        "remedio": "NATRUM SULFURICUM"
+      },
+      {
+        "grado": 16,
+        "signo": "Tauro",
+        "remedio": "PHYSOSTIGMA VENENOSUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Tauro",
+        "remedio": "HYOSCYAMUS NIGER"
+      },
+      {
+        "grado": 19,
+        "signo": "Tauro",
+        "remedio": "RATANHIA"
+      },
+      {
+        "grado": 19,
+        "signo": "Tauro",
+        "remedio": "PIX LIQUIDA"
+      },
+      {
+        "grado": 20,
+        "signo": "Tauro",
+        "remedio": "PODOPHYLLUM PELTATUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Tauro",
+        "remedio": "MEZEREUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Tauro",
+        "remedio": "SELENIUM METALLICUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Tauro",
+        "remedio": "BERILO ROJO"
+      },
+      {
+        "grado": 23,
+        "signo": "Tauro",
+        "remedio": "TOPACIO IMPERIAL"
+      },
+      {
+        "grado": 25,
+        "signo": "Tauro",
+        "remedio": "RANUNCULUS BULBOSUS"
+      },
+      {
+        "grado": 26,
+        "signo": "Tauro",
+        "remedio": "CUARZO"
+      },
+      {
+        "grado": 27,
+        "signo": "Tauro",
+        "remedio": "DULCAMARA"
+      },
+      {
+        "grado": 28,
+        "signo": "Tauro",
+        "remedio": "COLLINSONIA CANADENSIS"
+      },
+      {
+        "grado": 0,
+        "signo": "Geminis",
+        "remedio": "EUPATORIUM PERFOLIATUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Geminis",
+        "remedio": "PANCREAS"
+      },
+      {
+        "grado": 6,
+        "signo": "Geminis",
+        "remedio": "AESCULUS HIPPOCASTANUM"
+      },
+      {
+        "grado": 8,
+        "signo": "Geminis",
+        "remedio": "CALCAREA CARBONICA"
+      },
+      {
+        "grado": 9,
+        "signo": "Geminis",
+        "remedio": "BENZOICUM ACIDUM"
+      },
+      {
+        "grado": 13,
+        "signo": "Geminis",
+        "remedio": "CORINDON BLANCO"
+      },
+      {
+        "grado": 13,
+        "signo": "Geminis",
+        "remedio": "GRAPHITES"
+      },
+      {
+        "grado": 14,
+        "signo": "Geminis",
+        "remedio": "RAPHANUS"
+      },
+      {
+        "grado": 16,
+        "signo": "Geminis",
+        "remedio": "CINNABARIS"
+      },
+      {
+        "grado": 17,
+        "signo": "Geminis",
+        "remedio": "ZINGIBER OFFICINALE"
+      },
+      {
+        "grado": 17,
+        "signo": "Geminis",
+        "remedio": "DOLICHOS PRURIENS"
+      },
+      {
+        "grado": 20,
+        "signo": "Geminis",
+        "remedio": "LEPIDOLITA"
+      },
+      {
+        "grado": 21,
+        "signo": "Geminis",
+        "remedio": "KALIUM PHOSPHORICUM"
+      },
+      {
+        "grado": 21,
+        "signo": "Geminis",
+        "remedio": "FUMARIA OFFICINALIS"
+      },
+      {
+        "grado": 22,
+        "signo": "Geminis",
+        "remedio": "KALIUM IODATUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Geminis",
+        "remedio": "POLYGONUM AVICULARE"
+      },
+      {
+        "grado": 23,
+        "signo": "Geminis",
+        "remedio": "TURMALINA NEGRA"
+      },
+      {
+        "grado": 24,
+        "signo": "Geminis",
+        "remedio": "SYZYGIUM JAMBOLANUM"
+      },
+      {
+        "grado": 24,
+        "signo": "Geminis",
+        "remedio": "PULMON"
+      },
+      {
+        "grado": 25,
+        "signo": "Geminis",
+        "remedio": "ZINCUM ACETICUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Geminis",
+        "remedio": "CUPRUM ARSENICOSUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Geminis",
+        "remedio": "SARSAPARRILLA"
+      },
+      {
+        "grado": 27,
+        "signo": "Geminis",
+        "remedio": "MEDORRHINUM"
+      },
+      {
+        "grado": 29,
+        "signo": "Geminis",
+        "remedio": "ORIGANUM VULGARE"
+      },
+      {
+        "grado": 29,
+        "signo": "Geminis",
+        "remedio": "GINGKO BILOBA"
+      },
+      {
+        "grado": 29,
+        "signo": "Geminis",
+        "remedio": "DROSERA ROTUNDIFOLIA"
+      },
+      {
+        "grado": 0,
+        "signo": "Cancer",
+        "remedio": "AMMONIUM MURIATICUM"
+      },
+      {
+        "grado": 0,
+        "signo": "Cancer",
+        "remedio": "CANTHARIS"
+      },
+      {
+        "grado": 0,
+        "signo": "Cancer",
+        "remedio": "CAPSICUM ANNUUM"
+      },
+      {
+        "grado": 2,
+        "signo": "Cancer",
+        "remedio": "COLOCYNTHIS"
+      },
+      {
+        "grado": 2,
+        "signo": "Cancer",
+        "remedio": "BARYTA CARBONICA"
+      },
+      {
+        "grado": 4,
+        "signo": "Cancer",
+        "remedio": "DIGITALIS PURPUREA"
+      },
+      {
+        "grado": 4,
+        "signo": "Cancer",
+        "remedio": "TUBERCULINUM RESIDUUM"
+      },
+      {
+        "grado": 4,
+        "signo": "Cancer",
+        "remedio": "AURUM MURIATICUM"
+      },
+      {
+        "grado": 5,
+        "signo": "Cancer",
+        "remedio": "THUYA OCCIDENTALIS"
+      },
+      {
+        "grado": 5,
+        "signo": "Cancer",
+        "remedio": "RODOCROSITA"
+      },
+      {
+        "grado": 5,
+        "signo": "Cancer",
+        "remedio": "FE-NI METEORITO"
+      },
+      {
+        "grado": 5,
+        "signo": "Cancer",
+        "remedio": "AZURITA"
+      },
+      {
+        "grado": 6,
+        "signo": "Cancer",
+        "remedio": "SPIGELIA ANTHELMIA"
+      },
+      {
+        "grado": 7,
+        "signo": "Cancer",
+        "remedio": "NUX VOMICA"
+      },
+      {
+        "grado": 8,
+        "signo": "Cancer",
+        "remedio": "SULFUR"
+      },
+      {
+        "grado": 9,
+        "signo": "Cancer",
+        "remedio": "CACTUS GRANDIFLORUS"
+      },
+      {
+        "grado": 11,
+        "signo": "Cancer",
+        "remedio": "JUGLANS REGIA"
+      },
+      {
+        "grado": 13,
+        "signo": "Cancer",
+        "remedio": "APIS MELLIFICA"
+      },
+      {
+        "grado": 16,
+        "signo": "Cancer",
+        "remedio": "TEUCRIUM MARUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Cancer",
+        "remedio": "ADULARIA"
+      },
+      {
+        "grado": 17,
+        "signo": "Cancer",
+        "remedio": "PHOSPHORICUM ACIDUM"
+      },
+      {
+        "grado": 19,
+        "signo": "Cancer",
+        "remedio": "A.R.N."
+      },
+      {
+        "grado": 19,
+        "signo": "Cancer",
+        "remedio": "STREPTOCOCCINUM"
+      },
+      {
+        "grado": 20,
+        "signo": "Cancer",
+        "remedio": "CHELIDONIUM MAJUS"
+      },
+      {
+        "grado": 22,
+        "signo": "Cancer",
+        "remedio": "ZIZIA AUREA"
+      },
+      {
+        "grado": 22,
+        "signo": "Cancer",
+        "remedio": "CUARZO ARGENTIFERO"
+      },
+      {
+        "grado": 24,
+        "signo": "Cancer",
+        "remedio": "TURMALINA INDIGOLITA"
+      },
+      {
+        "grado": 25,
+        "signo": "Cancer",
+        "remedio": "SPONGIA TOSTA"
+      },
+      {
+        "grado": 25,
+        "signo": "Cancer",
+        "remedio": "VALERIANA OFFICINALIS"
+      },
+      {
+        "grado": 27,
+        "signo": "Cancer",
+        "remedio": "BOTHROPS LANCEOLATUS"
+      },
+      {
+        "grado": 27,
+        "signo": "Cancer",
+        "remedio": "BELLADONNA"
+      },
+      {
+        "grado": 28,
+        "signo": "Cancer",
+        "remedio": "APATITO"
+      },
+      {
+        "grado": 28,
+        "signo": "Cancer",
+        "remedio": "GENTIANA LUTEA"
+      },
+      {
+        "grado": 2,
+        "signo": "Leo",
+        "remedio": "MERCURIUS PROTOIODATUS"
+      },
+      {
+        "grado": 2,
+        "signo": "Leo",
+        "remedio": "TURMALINA VERDE"
+      },
+      {
+        "grado": 4,
+        "signo": "Leo",
+        "remedio": "PLANTAGO MAJOR"
+      },
+      {
+        "grado": 4,
+        "signo": "Leo",
+        "remedio": "NUX MOSCHATA"
+      },
+      {
+        "grado": 6,
+        "signo": "Leo",
+        "remedio": "HYPOTHALAMUS"
+      },
+      {
+        "grado": 6,
+        "signo": "Leo",
+        "remedio": "STAPHYSAGRIA"
+      },
+      {
+        "grado": 6,
+        "signo": "Leo",
+        "remedio": "LACHNANTHES TINCTORIA"
+      },
+      {
+        "grado": 7,
+        "signo": "Leo",
+        "remedio": "AVIAIRE"
+      },
+      {
+        "grado": 7,
+        "signo": "Leo",
+        "remedio": "ANTIMONIUM CRUDUM"
+      },
+      {
+        "grado": 8,
+        "signo": "Leo",
+        "remedio": "MONACITA"
+      },
+      {
+        "grado": 11,
+        "signo": "Leo",
+        "remedio": "TELLURIUM METALLICUM"
+      },
+      {
+        "grado": 11,
+        "signo": "Leo",
+        "remedio": "CROTON TIGLIUM"
+      },
+      {
+        "grado": 11,
+        "signo": "Leo",
+        "remedio": "HELONIAS DIOICA"
+      },
+      {
+        "grado": 12,
+        "signo": "Leo",
+        "remedio": "LAC CANINUM"
+      },
+      {
+        "grado": 12,
+        "signo": "Leo",
+        "remedio": "CYCLAMEN EUROPEUM"
+      },
+      {
+        "grado": 14,
+        "signo": "Leo",
+        "remedio": "SABADILLA OFFICINARUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Leo",
+        "remedio": "ALLIUM CEPA"
+      },
+      {
+        "grado": 18,
+        "signo": "Leo",
+        "remedio": "BARYTA MURIATICA"
+      },
+      {
+        "grado": 21,
+        "signo": "Leo",
+        "remedio": "SAMBUCUS NIGRA"
+      },
+      {
+        "grado": 22,
+        "signo": "Leo",
+        "remedio": "AETHUSA CYNAPIUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Leo",
+        "remedio": "VERATRUM ALBUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Leo",
+        "remedio": "GERMANIUM METALLICUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Leo",
+        "remedio": "CUPRUM METALLICUM"
+      },
+      {
+        "grado": 28,
+        "signo": "Leo",
+        "remedio": "PLATINA"
+      },
+      {
+        "grado": 29,
+        "signo": "Leo",
+        "remedio": "CALCAREA SULFURICA"
+      },
+      {
+        "grado": 3,
+        "signo": "Virgo",
+        "remedio": "ARGENTUM METALLICUM"
+      },
+      {
+        "grado": 4,
+        "signo": "Virgo",
+        "remedio": "OPIUM"
+      },
+      {
+        "grado": 5,
+        "signo": "Virgo",
+        "remedio": "POLLENS"
+      },
+      {
+        "grado": 5,
+        "signo": "Virgo",
+        "remedio": "PHYTOLACCA DECANDRA"
+      },
+      {
+        "grado": 6,
+        "signo": "Virgo",
+        "remedio": "HELLEBORUS NIGER"
+      },
+      {
+        "grado": 7,
+        "signo": "Virgo",
+        "remedio": "LITHIUM CARBONICUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Virgo",
+        "remedio": "SOLIDAGO VIRGA AUREA"
+      },
+      {
+        "grado": 10,
+        "signo": "Virgo",
+        "remedio": "BERBERIS VULGARIS"
+      },
+      {
+        "grado": 10,
+        "signo": "Virgo",
+        "remedio": "GELSEMIUM SEMPERVIRENS"
+      },
+      {
+        "grado": 11,
+        "signo": "Virgo",
+        "remedio": "CROCUS SATIVUS"
+      },
+      {
+        "grado": 13,
+        "signo": "Virgo",
+        "remedio": "AMBAR NARANJA"
+      },
+      {
+        "grado": 13,
+        "signo": "Virgo",
+        "remedio": "RUTA GRAVEOLENS"
+      },
+      {
+        "grado": 14,
+        "signo": "Virgo",
+        "remedio": "HEPAR SULFUR"
+      },
+      {
+        "grado": 15,
+        "signo": "Virgo",
+        "remedio": "LUTHEINUM"
+      },
+      {
+        "grado": 18,
+        "signo": "Virgo",
+        "remedio": "EUPHRASIA OFFICINALIS"
+      },
+      {
+        "grado": 19,
+        "signo": "Virgo",
+        "remedio": "MANGANUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Virgo",
+        "remedio": "FORMICUM ACIDUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Virgo",
+        "remedio": "FERRUM MURIATICUM"
+      },
+      {
+        "grado": 27,
+        "signo": "Virgo",
+        "remedio": "FLUORICUM ACIDUM"
+      },
+      {
+        "grado": 28,
+        "signo": "Virgo",
+        "remedio": "BOVISTA GIGANTEA"
+      },
+      {
+        "grado": 1,
+        "signo": "Libra",
+        "remedio": "STICTA PULMONARIA"
+      },
+      {
+        "grado": 1,
+        "signo": "Libra",
+        "remedio": "VENUS MERCENARIA"
+      },
+      {
+        "grado": 2,
+        "signo": "Libra",
+        "remedio": "LATHYRUS SATIVUS"
+      },
+      {
+        "grado": 3,
+        "signo": "Libra",
+        "remedio": "MAGNESIA PHOSPHORICA"
+      },
+      {
+        "grado": 3,
+        "signo": "Libra",
+        "remedio": "BERILO VERDE"
+      },
+      {
+        "grado": 6,
+        "signo": "Libra",
+        "remedio": "HYDRASTIS CANADENSIS"
+      },
+      {
+        "grado": 6,
+        "signo": "Libra",
+        "remedio": "ARNICA MONTANA"
+      },
+      {
+        "grado": 7,
+        "signo": "Libra",
+        "remedio": "KALIUM BICHROMICUM"
+      },
+      {
+        "grado": 7,
+        "signo": "Libra",
+        "remedio": "TARAXACUM DEN LEONIS"
+      },
+      {
+        "grado": 8,
+        "signo": "Libra",
+        "remedio": "CHININUM SULFURICUM"
+      },
+      {
+        "grado": 8,
+        "signo": "Libra",
+        "remedio": "CALADIUM SEGUINUM"
+      },
+      {
+        "grado": 10,
+        "signo": "Libra",
+        "remedio": "SYMPHYTUM OFFICINALE"
+      },
+      {
+        "grado": 11,
+        "signo": "Libra",
+        "remedio": "MERCURIUS CORROSIVUS"
+      },
+      {
+        "grado": 11,
+        "signo": "Libra",
+        "remedio": "MUREX PURPUREA"
+      },
+      {
+        "grado": 12,
+        "signo": "Libra",
+        "remedio": "PULSATILLA"
+      },
+      {
+        "grado": 13,
+        "signo": "Libra",
+        "remedio": "COCCUS CACTI"
+      },
+      {
+        "grado": 14,
+        "signo": "Libra",
+        "remedio": "KALIUM CARBONICUM"
+      },
+      {
+        "grado": 15,
+        "signo": "Libra",
+        "remedio": "BAPTISIA TINCTORIA"
+      },
+      {
+        "grado": 15,
+        "signo": "Libra",
+        "remedio": "ESPINELA AZUL"
+      },
+      {
+        "grado": 18,
+        "signo": "Libra",
+        "remedio": "VINNUM"
+      },
+      {
+        "grado": 19,
+        "signo": "Libra",
+        "remedio": "VIPERA REDI"
+      },
+      {
+        "grado": 20,
+        "signo": "Libra",
+        "remedio": "ACTAEA SPICATA"
+      },
+      {
+        "grado": 20,
+        "signo": "Libra",
+        "remedio": "ASA PHOETIDA"
+      },
+      {
+        "grado": 20,
+        "signo": "Libra",
+        "remedio": "ALLIUM SATIVUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Libra",
+        "remedio": "PAEONIA OFFICINALIS"
+      },
+      {
+        "grado": 22,
+        "signo": "Libra",
+        "remedio": "CORINDON AZUL"
+      },
+      {
+        "grado": 24,
+        "signo": "Libra",
+        "remedio": "CUARZO AURIFERO"
+      },
+      {
+        "grado": 25,
+        "signo": "Libra",
+        "remedio": "ANTIMONIUM TARTARICUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Libra",
+        "remedio": "MYRISTICA SEBIFERA"
+      },
+      {
+        "grado": 28,
+        "signo": "Libra",
+        "remedio": "COCCULUS INDICUS"
+      },
+      {
+        "grado": 28,
+        "signo": "Libra",
+        "remedio": "ULEXITA"
+      },
+      {
+        "grado": 28,
+        "signo": "Libra",
+        "remedio": "ZINCUM VALERIANICUM"
+      },
+      {
+        "grado": 29,
+        "signo": "Libra",
+        "remedio": "MEDICAGO SATIVA"
+      },
+      {
+        "grado": 0,
+        "signo": "Escorpio",
+        "remedio": "MERCURIUS BIIODATUS"
+      },
+      {
+        "grado": 1,
+        "signo": "Escorpio",
+        "remedio": "NATRUM PHOSPHORICUM"
+      },
+      {
+        "grado": 2,
+        "signo": "Escorpio",
+        "remedio": "NATRUM IODATUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Escorpio",
+        "remedio": "RUMEX CRISPUS"
+      },
+      {
+        "grado": 4,
+        "signo": "Escorpio",
+        "remedio": "DIOPTASA"
+      },
+      {
+        "grado": 4,
+        "signo": "Escorpio",
+        "remedio": "KALIUM BROMATUM"
+      },
+      {
+        "grado": 4,
+        "signo": "Escorpio",
+        "remedio": "ZINCUM MURIATICUM"
+      },
+      {
+        "grado": 5,
+        "signo": "Escorpio",
+        "remedio": "LAPISLAZULI"
+      },
+      {
+        "grado": 5,
+        "signo": "Escorpio",
+        "remedio": "HISTAMINUM"
+      },
+      {
+        "grado": 6,
+        "signo": "Escorpio",
+        "remedio": "CANDIDA ALBICANS"
+      },
+      {
+        "grado": 6,
+        "signo": "Escorpio",
+        "remedio": "EUGENIA JAMBOSA"
+      },
+      {
+        "grado": 7,
+        "signo": "Escorpio",
+        "remedio": "THALLIUM SULFURICUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Escorpio",
+        "remedio": "ROBINIA PSEUDO-ACACIA"
+      },
+      {
+        "grado": 9,
+        "signo": "Escorpio",
+        "remedio": "CORALLIUM RUBRUM"
+      },
+      {
+        "grado": 12,
+        "signo": "Escorpio",
+        "remedio": "CHINA RUBRA"
+      },
+      {
+        "grado": 12,
+        "signo": "Escorpio",
+        "remedio": "ALUMINA"
+      },
+      {
+        "grado": 14,
+        "signo": "Escorpio",
+        "remedio": "CORINDON AMARILLO"
+      },
+      {
+        "grado": 14,
+        "signo": "Escorpio",
+        "remedio": "HIERACIUM PILOSELLA"
+      },
+      {
+        "grado": 15,
+        "signo": "Escorpio",
+        "remedio": "MERCURIUS CYANATUS"
+      },
+      {
+        "grado": 16,
+        "signo": "Escorpio",
+        "remedio": "CORAL BLANCO"
+      },
+      {
+        "grado": 16,
+        "signo": "Escorpio",
+        "remedio": "CUPRUM ACETICUM"
+      },
+      {
+        "grado": 20,
+        "signo": "Escorpio",
+        "remedio": "IODUM"
+      },
+      {
+        "grado": 22,
+        "signo": "Escorpio",
+        "remedio": "MAHONIA AQUIFOLIA"
+      },
+      {
+        "grado": 23,
+        "signo": "Escorpio",
+        "remedio": "COFFEA CRUDA"
+      },
+      {
+        "grado": 25,
+        "signo": "Escorpio",
+        "remedio": "LILIUM TIGRINUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Escorpio",
+        "remedio": "LYCOPODIUM CLAVATUM"
+      },
+      {
+        "grado": 29,
+        "signo": "Escorpio",
+        "remedio": "SEROTONINUM"
+      },
+      {
+        "grado": 0,
+        "signo": "Sagitario",
+        "remedio": "KALIUM MURIATICUM"
+      },
+      {
+        "grado": 1,
+        "signo": "Sagitario",
+        "remedio": "PERIDOTO"
+      },
+      {
+        "grado": 2,
+        "signo": "Sagitario",
+        "remedio": "URTICA URENS"
+      },
+      {
+        "grado": 3,
+        "signo": "Sagitario",
+        "remedio": "CRATAEGUS OXYACANTHA"
+      },
+      {
+        "grado": 4,
+        "signo": "Sagitario",
+        "remedio": "IPECA"
+      },
+      {
+        "grado": 4,
+        "signo": "Sagitario",
+        "remedio": "PETROLEUM"
+      },
+      {
+        "grado": 5,
+        "signo": "Sagitario",
+        "remedio": "AURUM METALLICUM"
+      },
+      {
+        "grado": 6,
+        "signo": "Sagitario",
+        "remedio": "NERVIO PARASIMPATICO"
+      },
+      {
+        "grado": 6,
+        "signo": "Sagitario",
+        "remedio": "CONDURANGO"
+      },
+      {
+        "grado": 6,
+        "signo": "Sagitario",
+        "remedio": "PYROGENIUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Sagitario",
+        "remedio": "ZINCUM SULFURICUM"
+      },
+      {
+        "grado": 10,
+        "signo": "Sagitario",
+        "remedio": "TABACUM"
+      },
+      {
+        "grado": 10,
+        "signo": "Sagitario",
+        "remedio": "BLATTA ORIENTALIS"
+      },
+      {
+        "grado": 12,
+        "signo": "Sagitario",
+        "remedio": "NICCOLUM METALLICUM"
+      },
+      {
+        "grado": 13,
+        "signo": "Sagitario",
+        "remedio": "PICRICUM ACIDUM"
+      },
+      {
+        "grado": 14,
+        "signo": "Sagitario",
+        "remedio": "ALOE"
+      },
+      {
+        "grado": 15,
+        "signo": "Sagitario",
+        "remedio": "MERCURIUS SOLUBILIS"
+      },
+      {
+        "grado": 15,
+        "signo": "Sagitario",
+        "remedio": "USTILAGO MAIDIS"
+      },
+      {
+        "grado": 16,
+        "signo": "Sagitario",
+        "remedio": "CORINDON ROJO"
+      },
+      {
+        "grado": 17,
+        "signo": "Sagitario",
+        "remedio": "TARENTULA HISPANA"
+      },
+      {
+        "grado": 18,
+        "signo": "Sagitario",
+        "remedio": "HEKLA LAVA"
+      },
+      {
+        "grado": 19,
+        "signo": "Sagitario",
+        "remedio": "VISCUM ALBUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Sagitario",
+        "remedio": "NITRICUM ACIDUM"
+      },
+      {
+        "grado": 24,
+        "signo": "Sagitario",
+        "remedio": "ACHILLEA MILLEFOLIUM"
+      },
+      {
+        "grado": 25,
+        "signo": "Sagitario",
+        "remedio": "STRONTIUM CARBONICUM"
+      },
+      {
+        "grado": 25,
+        "signo": "Sagitario",
+        "remedio": "VIPERA BERUS"
+      },
+      {
+        "grado": 26,
+        "signo": "Sagitario",
+        "remedio": "MURIATICUM ACIDUM"
+      },
+      {
+        "grado": 28,
+        "signo": "Sagitario",
+        "remedio": "VIBURNUM OPULUS"
+      },
+      {
+        "grado": 28,
+        "signo": "Sagitario",
+        "remedio": "BISMUTHUM"
+      },
+      {
+        "grado": 0,
+        "signo": "Capricornio",
+        "remedio": "PULMON HISTAMINADO"
+      },
+      {
+        "grado": 1,
+        "signo": "Capricornio",
+        "remedio": "HEMATITES"
+      },
+      {
+        "grado": 2,
+        "signo": "Capricornio",
+        "remedio": "LATRODECTUS MACTANS"
+      },
+      {
+        "grado": 2,
+        "signo": "Capricornio",
+        "remedio": "CALENDULA OFFICINALIS"
+      },
+      {
+        "grado": 3,
+        "signo": "Capricornio",
+        "remedio": "GUAIACUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Capricornio",
+        "remedio": "LUESINUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Capricornio",
+        "remedio": "RHUS TOXICODENDRON"
+      },
+      {
+        "grado": 4,
+        "signo": "Capricornio",
+        "remedio": "CHAMOMILLA VULGARIS"
+      },
+      {
+        "grado": 5,
+        "signo": "Capricornio",
+        "remedio": "KALIUM SULFURICUM"
+      },
+      {
+        "grado": 7,
+        "signo": "Capricornio",
+        "remedio": "CAUSTICUM"
+      },
+      {
+        "grado": 7,
+        "signo": "Capricornio",
+        "remedio": "ARSENICUM IODATUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Capricornio",
+        "remedio": "CINA"
+      },
+      {
+        "grado": 9,
+        "signo": "Capricornio",
+        "remedio": "ESPECTROLITA"
+      },
+      {
+        "grado": 13,
+        "signo": "Capricornio",
+        "remedio": "MERCURIUS DULCIS"
+      },
+      {
+        "grado": 13,
+        "signo": "Capricornio",
+        "remedio": "GALIUM APARINE"
+      },
+      {
+        "grado": 13,
+        "signo": "Capricornio",
+        "remedio": "FLUORITA"
+      },
+      {
+        "grado": 17,
+        "signo": "Capricornio",
+        "remedio": "SECALE CORNUTUM"
+      },
+      {
+        "grado": 17,
+        "signo": "Capricornio",
+        "remedio": "SULFUR IODATUM"
+      },
+      {
+        "grado": 18,
+        "signo": "Capricornio",
+        "remedio": "CANNABIS SATIVA"
+      },
+      {
+        "grado": 19,
+        "signo": "Capricornio",
+        "remedio": "COBALTUM METALLICUM"
+      },
+      {
+        "grado": 19,
+        "signo": "Capricornio",
+        "remedio": "MICA"
+      },
+      {
+        "grado": 22,
+        "signo": "Capricornio",
+        "remedio": "VITEX AGNUS CASTUS"
+      },
+      {
+        "grado": 23,
+        "signo": "Capricornio",
+        "remedio": "EUPHORBIUM"
+      },
+      {
+        "grado": 24,
+        "signo": "Capricornio",
+        "remedio": "PLUMBUM METALLICUM"
+      },
+      {
+        "grado": 25,
+        "signo": "Capricornio",
+        "remedio": "RAUWOLFIA SERPENTINA"
+      },
+      {
+        "grado": 25,
+        "signo": "Capricornio",
+        "remedio": "CARDUUS MARIANUS"
+      },
+      {
+        "grado": 26,
+        "signo": "Capricornio",
+        "remedio": "CHOLESTERINUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Capricornio",
+        "remedio": "PALLADIUM METALLICUM"
+      },
+      {
+        "grado": 26,
+        "signo": "Capricornio",
+        "remedio": "MAGNESIA CARBONICA"
+      },
+      {
+        "grado": 29,
+        "signo": "Capricornio",
+        "remedio": "GINSENG"
+      },
+      {
+        "grado": 29,
+        "signo": "Capricornio",
+        "remedio": "TRIFILITA"
+      },
+      {
+        "grado": 29,
+        "signo": "Capricornio",
+        "remedio": "AVENA SATIVA"
+      },
+      {
+        "grado": 0,
+        "signo": "Acuario",
+        "remedio": "CAMPHORA"
+      },
+      {
+        "grado": 1,
+        "signo": "Acuario",
+        "remedio": "SULFURICUM ACIDUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Acuario",
+        "remedio": "PHOSPHORUS TRIIODAT"
+      },
+      {
+        "grado": 4,
+        "signo": "Acuario",
+        "remedio": "HAMAMELIS VIRGINIANA"
+      },
+      {
+        "grado": 5,
+        "signo": "Acuario",
+        "remedio": "ALUMINIUM METALLICUM"
+      },
+      {
+        "grado": 5,
+        "signo": "Acuario",
+        "remedio": "A.D.N."
+      },
+      {
+        "grado": 5,
+        "signo": "Acuario",
+        "remedio": "TUBERCULINUM"
+      },
+      {
+        "grado": 6,
+        "signo": "Acuario",
+        "remedio": "ANAS BARBARIAE"
+      },
+      {
+        "grado": 7,
+        "signo": "Acuario",
+        "remedio": "CEANOTHUS AMERICANUS"
+      },
+      {
+        "grado": 7,
+        "signo": "Acuario",
+        "remedio": "CUPRESSUS SEMPERV."
+      },
+      {
+        "grado": 8,
+        "signo": "Acuario",
+        "remedio": "RICINUS COMMUNIS"
+      },
+      {
+        "grado": 9,
+        "signo": "Acuario",
+        "remedio": "LYCOPUS VIRGINICUS"
+      },
+      {
+        "grado": 10,
+        "signo": "Acuario",
+        "remedio": "BUFO RANA"
+      },
+      {
+        "grado": 10,
+        "signo": "Acuario",
+        "remedio": "ABROTANUM"
+      },
+      {
+        "grado": 13,
+        "signo": "Acuario",
+        "remedio": "CORINDON NEGRO ESTRELLADO"
+      },
+      {
+        "grado": 13,
+        "signo": "Acuario",
+        "remedio": "DIOSCOREA VILLOSA"
+      },
+      {
+        "grado": 14,
+        "signo": "Acuario",
+        "remedio": "SENNA"
+      },
+      {
+        "grado": 15,
+        "signo": "Acuario",
+        "remedio": "CALCAREA PHOSPHORICA"
+      },
+      {
+        "grado": 16,
+        "signo": "Acuario",
+        "remedio": "CALCAREA IODATA"
+      },
+      {
+        "grado": 17,
+        "signo": "Acuario",
+        "remedio": "COLCHICUM AUTUMNALE"
+      },
+      {
+        "grado": 17,
+        "signo": "Acuario",
+        "remedio": "NAJA TRIPUDIANS"
+      },
+      {
+        "grado": 17,
+        "signo": "Acuario",
+        "remedio": "AMBRA GRISEA"
+      },
+      {
+        "grado": 18,
+        "signo": "Acuario",
+        "remedio": "PHOSPHORUS"
+      },
+      {
+        "grado": 19,
+        "signo": "Acuario",
+        "remedio": "CORTISONA"
+      },
+      {
+        "grado": 19,
+        "signo": "Acuario",
+        "remedio": "GRANATE GROSULARIA"
+      },
+      {
+        "grado": 19,
+        "signo": "Acuario",
+        "remedio": "TESTOSTERONA"
+      },
+      {
+        "grado": 20,
+        "signo": "Acuario",
+        "remedio": "ASTERIA RUBENS"
+      },
+      {
+        "grado": 23,
+        "signo": "Acuario",
+        "remedio": "THERIDION"
+      },
+      {
+        "grado": 23,
+        "signo": "Acuario",
+        "remedio": "SABAL SERRULATA"
+      },
+      {
+        "grado": 23,
+        "signo": "Acuario",
+        "remedio": "ADRENALINUM"
+      },
+      {
+        "grado": 23,
+        "signo": "Acuario",
+        "remedio": "STRAMONIUM"
+      },
+      {
+        "grado": 24,
+        "signo": "Acuario",
+        "remedio": "NATRUM CARBONICUM"
+      },
+      {
+        "grado": 24,
+        "signo": "Acuario",
+        "remedio": "PSORINUM"
+      },
+      {
+        "grado": 25,
+        "signo": "Acuario",
+        "remedio": "MERCURIUS VIVUS"
+      },
+      {
+        "grado": 27,
+        "signo": "Acuario",
+        "remedio": "FERRUM METALLICUM"
+      },
+      {
+        "grado": 29,
+        "signo": "Acuario",
+        "remedio": "KREOSOTUM"
+      },
+      {
+        "grado": 1,
+        "signo": "Piscis",
+        "remedio": "GNAPHALIUM DIOICUM"
+      },
+      {
+        "grado": 1,
+        "signo": "Piscis",
+        "remedio": "KALIUM ARSENICOSUM"
+      },
+      {
+        "grado": 3,
+        "signo": "Piscis",
+        "remedio": "LEDUM PALUSTRE"
+      },
+      {
+        "grado": 3,
+        "signo": "Piscis",
+        "remedio": "THALLIUM METALLICUM"
+      },
+      {
+        "grado": 4,
+        "signo": "Piscis",
+        "remedio": "CARBONO CRISTALIZADO"
+      },
+      {
+        "grado": 5,
+        "signo": "Piscis",
+        "remedio": "CROTALUS HORRIDUS"
+      },
+      {
+        "grado": 5,
+        "signo": "Piscis",
+        "remedio": "FUCUS VESICULOSUS"
+      },
+      {
+        "grado": 6,
+        "signo": "Piscis",
+        "remedio": "MOSCHUS"
+      },
+      {
+        "grado": 6,
+        "signo": "Piscis",
+        "remedio": "ANACARDIUM ORIENTALE"
+      },
+      {
+        "grado": 7,
+        "signo": "Piscis",
+        "remedio": "CARBONEUM SULFURATUM"
+      },
+      {
+        "grado": 8,
+        "signo": "Piscis",
+        "remedio": "FOLLICULINUM"
+      },
+      {
+        "grado": 9,
+        "signo": "Piscis",
+        "remedio": "HYPERICUM PERFORATUM"
+      },
+      {
+        "grado": 10,
+        "signo": "Piscis",
+        "remedio": "RIÑON"
+      },
+      {
+        "grado": 10,
+        "signo": "Piscis",
+        "remedio": "CONIUM MACULATUM"
+      },
+      {
+        "grado": 11,
+        "signo": "Piscis",
+        "remedio": "ACONITUM NAPELLUS"
+      },
+      {
+        "grado": 12,
+        "signo": "Piscis",
+        "remedio": "MAGNESIA MURIATICA"
+      },
+      {
+        "grado": 14,
+        "signo": "Piscis",
+        "remedio": "SILICEA"
+      },
+      {
+        "grado": 15,
+        "signo": "Piscis",
+        "remedio": "CARTILAGO"
+      },
+      {
+        "grado": 15,
+        "signo": "Piscis",
+        "remedio": "CARBO ANIMALIS"
+      },
+      {
+        "grado": 16,
+        "signo": "Piscis",
+        "remedio": "KALMIA LATIFOLIA"
+      },
+      {
+        "grado": 17,
+        "signo": "Piscis",
+        "remedio": "VERATRUM VIRIDE"
+      },
+      {
+        "grado": 19,
+        "signo": "Piscis",
+        "remedio": "MANDRAGORA OFFICINAR."
+      },
+      {
+        "grado": 25,
+        "signo": "Piscis",
+        "remedio": "PASSIFLORA INCARNATA"
+      },
+      {
+        "grado": 26,
+        "signo": "Piscis",
+        "remedio": "SABINA"
+      },
+      {
+        "grado": 26,
+        "signo": "Piscis",
+        "remedio": "SENEGA"
+      },
+      {
+        "grado": 27,
+        "signo": "Piscis",
+        "remedio": "CHIMAPHILA UMBELLATA"
+      },
+      {
+        "grado": 29,
+        "signo": "Piscis",
+        "remedio": "BERILO AZUL"
+      },
+      {
+        "grado": 29,
+        "signo": "Piscis",
+        "remedio": "LEPTANDRA VIRGINICA"
+      },
+      {
+        "grado": 29,
+        "signo": "Piscis",
+        "remedio": "ECHINACEA ANGUSTIFOLIA"
+      },
+      {
+        "grado": 29,
+        "signo": "Piscis",
+        "remedio": "ARGENTUM NITRICUM"
+      }
+    ],
+    "total": 354
+  }
 }
