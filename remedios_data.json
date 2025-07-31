@@ -1,0 +1,32 @@
+{
+  "remedios": [
+    {"grado": 0, "signo": "Aries", "remedio": "LOBELIA INFLATA"},
+    {"grado": 1, "signo": "Aries", "remedio": "EQUISETUM ARVENSE"},
+    {"grado": 2, "signo": "Aries", "remedio": "BROMUM"},
+    {"grado": 3, "signo": "Aries", "remedio": "BELLIS PERENNIS"},
+    {"grado": 5, "signo": "Aries", "remedio": "ZINCUM METALLICUM"},
+    {"grado": 0, "signo": "Tauro", "remedio": "AGRAPHIS NUTANS"},
+    {"grado": 1, "signo": "Tauro", "remedio": "GLONOINUM"},
+    {"grado": 6, "signo": "Tauro", "remedio": "YUCCA FILAMENTOSA"},
+    {"grado": 0, "signo": "Geminis", "remedio": "EUPATORIUM PERFOLIATUM"},
+    {"grado": 3, "signo": "Geminis", "remedio": "PANCREAS"},
+    {"grado": 0, "signo": "Cancer", "remedio": "AMMONIUM MURIATICUM"},
+    {"grado": 2, "signo": "Cancer", "remedio": "COLOCYNTHIS"},
+    {"grado": 2, "signo": "Leo", "remedio": "MERCURIUS PROTOIODATUS"},
+    {"grado": 4, "signo": "Leo", "remedio": "PLANTAGO MAJOR"},
+    {"grado": 3, "signo": "Virgo", "remedio": "ARGENTUM METALLICUM"},
+    {"grado": 4, "signo": "Virgo", "remedio": "OPIUM"},
+    {"grado": 1, "signo": "Libra", "remedio": "STICTA PULMONARIA"},
+    {"grado": 2, "signo": "Libra", "remedio": "LATHYRUS SATIVUS"},
+    {"grado": 0, "signo": "Escorpio", "remedio": "MERCURIUS BIIODATUS"},
+    {"grado": 1, "signo": "Escorpio", "remedio": "NATRUM PHOSPHORICUM"},
+    {"grado": 0, "signo": "Sagitario", "remedio": "KALIUM MURIATICUM"},
+    {"grado": 1, "signo": "Sagitario", "remedio": "PERIDOTO"},
+    {"grado": 0, "signo": "Capricornio", "remedio": "PULMON HISTAMINADO"},
+    {"grado": 1, "signo": "Capricornio", "remedio": "HEMATITES"},
+    {"grado": 0, "signo": "Acuario", "remedio": "CAMPHORA"},
+    {"grado": 1, "signo": "Acuario", "remedio": "SULFURICUM ACIDUM"},
+    {"grado": 1, "signo": "Piscis", "remedio": "GNAPHALIUM DIOICUM"},
+    {"grado": 3, "signo": "Piscis", "remedio": "LEDUM PALUSTRE"}
+  ]
+}
