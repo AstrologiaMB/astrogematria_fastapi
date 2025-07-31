@@ -110,13 +110,10 @@ async def get_remedios():
         with open(remedios_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        logger.info(f"Remedios cargados: {len(data['remedios'])} registros")
+        # El archivo JSON ya tiene la estructura correcta con success, data, etc.
+        logger.info(f"Remedios cargados: {data['data']['total']} registros")
         
-        return {
-            "success": True,
-            "data": data,
-            "total": len(data['remedios'])
-        }
+        return data
         
     except Exception as e:
         logger.error(f"Error cargando remedios: {e}")
