@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 from datetime import datetime
 import sys
+import json
+import os
 
 # Importar funciones locales
 from astrogematria_core import calcular_astrogematria_completa
@@ -38,7 +40,8 @@ async def root():
         "endpoints": {
             "health": "/health",
             "docs": "/docs",
-            "calcular": "/astrogematria/calcular"
+            "calcular": "/astrogematria/calcular",
+            "remedios": "/astrogematria/remedios"
         }
     }
 
@@ -90,6 +93,33 @@ async def calcular_astrogematria(request: AstrogematriaRequest):
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         logger.error(f"Error interno: {e}")
+        raise HTTPException(status_code=500, detail="Error interno del servidor")
+
+@app.get("/astrogematria/remedios")
+async def get_remedios():
+    """
+    Obtiene la lista de remedios homeopáticos por grado y signo zodiacal
+    """
+    try:
+        # Cargar datos desde el archivo JSON
+        remedios_file = os.path.join(os.path.dirname(__file__), "remedios_data.json")
+        
+        if not os.path.exists(remedios_file):
+            raise HTTPException(status_code=404, detail="Archivo de remedios no encontrado")
+        
+        with open(remedios_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        logger.info(f"Remedios cargados: {len(data['remedios'])} registros")
+        
+        return {
+            "success": True,
+            "data": data,
+            "total": len(data['remedios'])
+        }
+        
+    except Exception as e:
+        logger.error(f"Error cargando remedios: {e}")
         raise HTTPException(status_code=500, detail="Error interno del servidor")
 
 if __name__ == "__main__":
